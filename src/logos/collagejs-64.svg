@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="secondaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="warningGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- No background - minimal clean design -->
+  
+  <!-- Simplified geometric pieces -->
+  <path d="M10 15 L28 12 L30 22 L25 30 L15 28 L10 20 Z" 
+        fill="url(#primaryGrad)" 
+        opacity="0.9"/>
+  
+  <path d="M35 10 L52 15 L50 25 L45 22 L40 17 L35 15 Z" 
+        fill="url(#secondaryGrad)" 
+        opacity="0.85"/>
+  
+  <path d="M8 32 L22 30 L25 40 L20 45 L12 42 L8 37 Z" 
+        fill="url(#accentGrad)" 
+        opacity="0.8"/>
+  
+  <path d="M28 37 L47 40 L45 50 L37 52 L30 47 L28 42 Z" 
+        fill="url(#warningGrad)" 
+        opacity="0.85"/>
+  
+  <!-- Small connecting dot for detail -->
+  <circle cx="40" cy="32" r="2" fill="url(#secondaryGrad)" opacity="0.8"/>
+  
+  <!-- Central JS with stroke for visibility -->
+  <text x="32" y="37" 
+        font-family="'SF Pro Display', 'Segoe UI', -apple-system, sans-serif" 
+        font-size="12" 
+        font-weight="700" 
+        text-anchor="middle" 
+        fill="url(#primaryGrad)"
+        stroke="#FFFFFF"
+        stroke-width="0.8"
+        paint-order="stroke fill">JS</text>
+</svg>

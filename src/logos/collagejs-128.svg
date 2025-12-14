@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED"/>
+    </linearGradient>
+    <linearGradient id="secondaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="warningGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="1" dy="2" stdDeviation="2" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+  
+  <!-- No background - clean floating pieces -->
+  
+  <!-- Simplified collage pieces -->
+  <!-- Main piece (top-left) -->
+  <path d="M20 30 L55 25 L60 45 L50 60 L30 55 L20 40 Z" 
+        fill="url(#primaryGrad)" 
+        filter="url(#dropShadow)" 
+        opacity="0.9"/>
+  
+  <!-- Secondary piece (top-right) -->
+  <path d="M70 20 L105 30 L100 50 L90 45 L80 35 L70 30 Z" 
+        fill="url(#secondaryGrad)" 
+        filter="url(#dropShadow)" 
+        opacity="0.85"/>
+  
+  <!-- Third piece (center-left) -->
+  <path d="M15 65 L45 60 L50 80 L40 90 L25 85 L15 75 Z" 
+        fill="url(#accentGrad)" 
+        filter="url(#dropShadow)" 
+        opacity="0.8"/>
+  
+  <!-- Fourth piece (bottom-right) -->
+  <path d="M55 75 L95 80 L90 100 L75 105 L60 95 L55 85 Z" 
+        fill="url(#warningGrad)" 
+        filter="url(#dropShadow)" 
+        opacity="0.85"/>
+  
+  <!-- Small connecting dots for detail -->
+  <circle cx="60" cy="50" r="4" fill="url(#secondaryGrad)" opacity="0.8"/>
+  <circle cx="80" cy="65" r="3" fill="url(#accentGrad)" opacity="0.8"/>
+  
+  <!-- Central JS text with enhanced visibility -->
+  <text x="64" y="74" 
+        font-family="'SF Pro Display', 'Segoe UI', -apple-system, sans-serif" 
+        font-size="24" 
+        font-weight="700" 
+        text-anchor="middle" 
+        fill="url(#primaryGrad)"
+        stroke="#FFFFFF"
+        stroke-width="1"
+        paint-order="stroke fill">JS</text>
+</svg>
