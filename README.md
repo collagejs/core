@@ -2,7 +2,9 @@
 
 > Micro library for framework-agnostic micro-frontends
 
-**🚧🚧 YOU'RE EARLY.  WORK IN PROGRESS... 🚧🚧**
+**🚧🚧 YOU'RE EARLY.  WORK IN PROGRESS... ETA: Early January, 2026 🚧🚧**
+
+**If you're interested, star the repository to get updates on the progress in your GH homepage.**
 
 *If you would like to express youself, head to the [Discussions board](https://github.com/collagejs/collagejs/discussions).*
 
