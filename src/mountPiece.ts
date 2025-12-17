@@ -3,10 +3,13 @@ import type { CorePiece, MountPiece } from "./types.js";
 
 export async function mountPieceCore<TProps extends Record<string, any> = Record<string, any>>(
     this: MountedPiece | undefined,
-    piece: CorePiece<TProps>,
+    piece: CorePiece<TProps> | Promise<CorePiece<TProps>>,
     target: HTMLElement,
     props?: TProps,
 ): Promise<MountedPiece<TProps>> {
+    if (piece instanceof Promise) {
+        piece = await piece;
+    }
     const mp = new MountedPiece(piece, mountPieceCore<TProps>, this);
     await mp[mountKey](target, props);
     return mp;
