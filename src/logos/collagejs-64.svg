@@ -22,33 +22,33 @@
   <!-- No background - minimal clean design -->
   
   <!-- Simplified geometric pieces -->
-  <path d="M10 15 L28 12 L30 22 L25 30 L15 28 L10 20 Z" 
+  <path d="M6 11 L31 7 L34 24 L27 34 L14 31 L6 18 Z" 
         fill="url(#primaryGrad)" 
         opacity="0.9"/>
   
-  <path d="M35 10 L52 15 L50 25 L45 22 L40 17 L35 15 Z" 
+  <path d="M39 6 L58 12 L56 27 L49 23 L42 16 L39 13 Z" 
         fill="url(#secondaryGrad)" 
         opacity="0.85"/>
   
-  <path d="M8 32 L22 30 L25 40 L20 45 L12 42 L8 37 Z" 
+  <path d="M7 36 L25 34 L28 46 L22 52 L12 48 L7 41 Z" 
         fill="url(#accentGrad)" 
         opacity="0.8"/>
   
-  <path d="M28 37 L47 40 L45 50 L37 52 L30 47 L28 42 Z" 
+  <path d="M30 42 L53 46 L50 58 L40 61 L32 54 L30 47 Z" 
         fill="url(#warningGrad)" 
         opacity="0.85"/>
   
   <!-- Small connecting dot for detail -->
-  <circle cx="40" cy="32" r="2" fill="url(#secondaryGrad)" opacity="0.8"/>
+  <circle cx="44" cy="35" r="2.4" fill="url(#secondaryGrad)" opacity="0.8"/>
   
   <!-- Central JS with stroke for visibility -->
-  <text x="32" y="37" 
+  <text x="32" y="40" 
         font-family="'SF Pro Display', 'Segoe UI', -apple-system, sans-serif" 
-        font-size="12" 
+        font-size="14" 
         font-weight="700" 
         text-anchor="middle" 
         fill="url(#primaryGrad)"
         stroke="#FFFFFF"
-        stroke-width="0.8"
+        stroke-width="0.9"
         paint-order="stroke fill">JS</text>
 </svg>

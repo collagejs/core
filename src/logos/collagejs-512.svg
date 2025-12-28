@@ -35,65 +35,65 @@
   
   <!-- Main collage pieces - representing micro-frontend components -->
   <!-- Large primary piece (top-left) -->
-  <path d="M80 120 L220 100 L240 180 L200 240 L120 220 L80 160 Z" 
+  <path d="M50 85 L240 60 L265 170 L215 255 L110 225 L50 145 Z" 
         fill="url(#primaryGrad)" 
         filter="url(#glow)" 
         opacity="0.95"/>
   
   <!-- Secondary piece (top-right) -->
-  <path d="M280 80 L420 120 L400 200 L360 180 L320 140 L280 120 Z" 
+  <path d="M295 50 L460 85 L435 200 L385 170 L330 125 L295 100 Z" 
         fill="url(#secondaryGrad)" 
         filter="url(#dropShadow)" 
         opacity="0.85"/>
   
   <!-- Third piece (center-left) -->
-  <path d="M60 260 L180 240 L200 320 L160 360 L100 340 L60 300 Z" 
+  <path d="M30 245 L190 225 L215 325 L165 375 L85 350 L30 295 Z" 
         fill="url(#accentGrad)" 
         filter="url(#dropShadow)" 
         opacity="0.8"/>
   
   <!-- Fourth piece (bottom-center) -->
-  <path d="M220 300 L380 320 L360 400 L300 420 L240 380 L220 340 Z" 
+  <path d="M235 285 L410 310 L385 425 L315 450 L250 395 L235 335 Z" 
         fill="url(#warningGrad)" 
         filter="url(#dropShadow)" 
         opacity="0.85"/>
   
   <!-- Fifth piece (right) -->
-  <path d="M380 200 L460 240 L440 320 L400 300 L380 260 Z" 
+  <path d="M405 185 L485 225 L460 325 L415 300 L405 245 Z" 
         fill="url(#primaryGrad)" 
         filter="url(#dropShadow)" 
         opacity="0.7"/>
   
   <!-- Small connecting pieces for detail -->
-  <circle cx="240" cy="200" r="16" fill="url(#secondaryGrad)" opacity="0.8"/>
-  <circle cx="320" cy="260" r="12" fill="url(#accentGrad)" opacity="0.8"/>
-  <circle cx="180" cy="300" r="10" fill="url(#primaryGrad)" opacity="0.8"/>
+  <circle cx="255" cy="190" r="19" fill="url(#secondaryGrad)" opacity="0.8"/>
+  <circle cx="340" cy="250" r="14" fill="url(#accentGrad)" opacity="0.8"/>
+  <circle cx="190" cy="295" r="12" fill="url(#primaryGrad)" opacity="0.8"/>
   
   <!-- Stylized "JS" text with enhanced visibility -->
-  <g transform="translate(256, 400)">
+  <g transform="translate(256, 420)">
     <text x="0" y="0" 
           font-family="'SF Pro Display', 'Segoe UI', -apple-system, sans-serif" 
-          font-size="72" 
+          font-size="85" 
           font-weight="700" 
           text-anchor="middle" 
           fill="url(#primaryGrad)"
           stroke="#FFFFFF"
-          stroke-width="2"
+          stroke-width="2.3"
           paint-order="stroke fill">JS</text>
   </g>
   
   <!-- CollageJS text -->
-  <g transform="translate(256, 450)">
+  <g transform="translate(256, 475)">
     <text x="0" y="0" 
           font-family="'SF Pro Display', 'Segoe UI', -apple-system, sans-serif" 
-          font-size="28" 
+          font-size="33" 
           font-weight="500" 
           text-anchor="middle" 
           fill="#374151">Collage</text>
   </g>
   
   <!-- Subtle connection lines showing pieces working together -->
-  <line x1="150" y1="160" x2="200" y2="200" stroke="url(#primaryGrad)" stroke-width="3" opacity="0.3"/>
-  <line x1="280" y1="140" x2="320" y2="180" stroke="url(#secondaryGrad)" stroke-width="3" opacity="0.3"/>
-  <line x1="200" y1="280" x2="280" y2="300" stroke="url(#accentGrad)" stroke-width="3" opacity="0.3"/>
+  <line x1="140" y1="145" x2="210" y2="190" stroke="url(#primaryGrad)" stroke-width="3.5" opacity="0.3"/>
+  <line x1="300" y1="120" x2="345" y2="165" stroke="url(#secondaryGrad)" stroke-width="3.5" opacity="0.3"/>
+  <line x1="210" y1="270" x2="300" y2="290" stroke="url(#accentGrad)" stroke-width="3.5" opacity="0.3"/>
 </svg>
