@@ -26,41 +26,41 @@
   
   <!-- Simplified collage pieces -->
   <!-- Main piece (top-left) -->
-  <path d="M20 30 L55 25 L60 45 L50 60 L30 55 L20 40 Z" 
+  <path d="M12 22 L59 16 L66 42 L52 62 L26 56 L12 36 Z" 
         fill="url(#primaryGrad)" 
         filter="url(#dropShadow)" 
         opacity="0.9"/>
   
   <!-- Secondary piece (top-right) -->
-  <path d="M70 20 L105 30 L100 50 L90 45 L80 35 L70 30 Z" 
+  <path d="M78 12 L118 22 L112 48 L100 42 L87 30 L78 24 Z" 
         fill="url(#secondaryGrad)" 
         filter="url(#dropShadow)" 
         opacity="0.85"/>
   
   <!-- Third piece (center-left) -->
-  <path d="M15 65 L45 60 L50 80 L40 90 L25 85 L15 75 Z" 
+  <path d="M8 70 L48 64 L54 86 L42 98 L22 91 L8 80 Z" 
         fill="url(#accentGrad)" 
         filter="url(#dropShadow)" 
         opacity="0.8"/>
   
   <!-- Fourth piece (bottom-right) -->
-  <path d="M55 75 L95 80 L90 100 L75 105 L60 95 L55 85 Z" 
+  <path d="M58 80 L106 86 L100 112 L82 118 L64 106 L58 91 Z" 
         fill="url(#warningGrad)" 
         filter="url(#dropShadow)" 
         opacity="0.85"/>
   
   <!-- Small connecting dots for detail -->
-  <circle cx="60" cy="50" r="4" fill="url(#secondaryGrad)" opacity="0.8"/>
-  <circle cx="80" cy="65" r="3" fill="url(#accentGrad)" opacity="0.8"/>
+  <circle cx="66" cy="54" r="4.7" fill="url(#secondaryGrad)" opacity="0.8"/>
+  <circle cx="88" cy="72" r="3.5" fill="url(#accentGrad)" opacity="0.8"/>
   
   <!-- Central JS text with enhanced visibility -->
-  <text x="64" y="74" 
+  <text x="64" y="78" 
         font-family="'SF Pro Display', 'Segoe UI', -apple-system, sans-serif" 
-        font-size="24" 
+        font-size="28" 
         font-weight="700" 
         text-anchor="middle" 
         fill="url(#primaryGrad)"
         stroke="#FFFFFF"
-        stroke-width="1"
+        stroke-width="1.1"
         paint-order="stroke fill">JS</text>
 </svg>
